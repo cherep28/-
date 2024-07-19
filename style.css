@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   background-color: burlywood;
   max-width: 50%;
@@ -49,4 +50,29 @@ body .location p {
 }
 body .location span {
   font-weight: bold;
+}
+body footer h2 {
+  text-align: center;
+}
+body footer .menu ul {
+  padding-left: 30px;
+  margin: 0;
+  line-height: 1.5;
+  list-style: none;
+  display: none;
+}
+body footer .menu .list_name {
+  font-size: 18px;
+  cursor: pointer;
+}
+body footer .menu .list_name::before {
+  content: "▶ ";
+  font-size: 80%;
+  color: green;
+}
+body footer .menu.open .list_name::before {
+  content: "▼ ";
+}
+body footer .menu.open ul {
+  display: block;
 }
