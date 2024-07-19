@@ -1,0 +1,52 @@
+body {
+  background-color: burlywood;
+  max-width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+body header {
+  text-align: center;
+}
+body nav {
+  text-align: right;
+  padding: 5px 15px;
+}
+body nav a {
+  text-decoration: none;
+  color: black;
+}
+body nav a:hover {
+  text-decoration: underline;
+}
+body .description h3 {
+  text-align: center;
+}
+body .description p {
+  padding: 0px 10px;
+  font-style: Italic;
+  font-size: 18px;
+  line-height: 1.5;
+}
+body .description span {
+  font-weight: none;
+}
+body .description p {
+  text-shadow: #5e5c52 1px 0 10px;
+}
+body .location h3 {
+  text-align: center;
+}
+body .location p {
+  padding: 0px 10px;
+  font-style: None;
+  font-size: 18px;
+  line-height: 1.5;
+}
+body .location span {
+  font-weight: bold;
+}
