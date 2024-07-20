@@ -50,3 +50,17 @@ body .location p {
 body .location span {
   font-weight: bold;
 }
+body .box {
+  margin: 70px;
+  width: 150px;
+  height: 150px;
+  background-color: skyblue;
+  border: 2px solid black;
+  -webkit-transition: all 1s ease 0.5s;
+  transition: all 1s ease 0.5s;
+}
+body .box:hover {
+  background-color: darkolivegreen;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
